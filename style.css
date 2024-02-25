@@ -66,3 +66,19 @@ h2{
     margin-right: 5px;
     color: blue;
 }
+input::placeholder{
+    color: black;
+}
+.input-box{
+    width: 100%;
+    position: relative;
+}
+.input-box i{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+input:focus{
+    outline: none;
+}
